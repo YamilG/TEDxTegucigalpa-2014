@@ -295,12 +295,99 @@ form {
   margin-left: 10%;
 }
 
-@media (max-width: 480px) {
+nav {
+  display: none;
+}
 
+@media (max-width: 480px) {
+  #header img {
+    width: 90%;
+    height: auto;
+  }
+
+  #header {
+    text-align: center;
+    border-bottom: 1px solid #e02727;
+    padding: 10px 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .highlight {
+    font-size: 50%;
+    line-height: 1.3em;
+    padding-top: 20%;
+
+  }
+
+  .highlight sup {
+    font-size: 70% !important;
+    margin-right: 3px
+  }
+
+  #fullPage-nav {
+    display: none;
+  }
+
+  #about p {
+    -webkit-column-count: 1;
+    -webkit-column-gap:   20px;
+    -moz-column-count:    1;
+    -moz-column-gap:      20px;
+    column-count:         1;
+    column-gap:           20px;
+  }
+
+  #about p span {
+    display: none;
+  }
+
+  #about {
+    padding: 0 25px;
+    padding-top: 10%;
+  }
+
+  .center img {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+  }
+
+  .center {
+    padding-top: 20%;
+  }
+
+  #revive p, #revive h2, #contact p, #contact h2, .hide-sm {
+    display: none;
+  }
+
+  #contact {
+    padding-top: 10%;
+  }
+
+  #contact .wrapper {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  #contact input, #contact textarea {
+    width: 85%;
+  }
+
+  #contact input[type=submit] {
+    width: 90%;
+  }
+
+  #contact textarea {
+    height: 50px;
+  }
 }
 
 @media (min-width: 768px) {
-
+  nav {
+    display: block;
+  }
 }
 
 @media (min-width: 992px) {
