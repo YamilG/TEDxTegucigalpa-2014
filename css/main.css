@@ -55,9 +55,18 @@ a {
   font-weight: bold;
 }
 
+abbr {
+  cursor: help;
+}
+
 h2 span {
   font-weight: 300;
   color: white;
+}
+
+#header img {
+  width: 179px;
+  height: 35px;
 }
 
 .wrapper {
